@@ -172,7 +172,7 @@ The user wants recovery and sleep suggestions. Focus on her readiness, sleep, ac
 .goal-row-text{flex:1;min-width:0;font-size:14.5px;font-weight:700;color:var(--ink);}
 .goal-add{display:flex;gap:8px;align-items:center;}
 .goal-add .in{flex:1;min-width:0;}
-.goal-add .btn{flex:none;}
+.goal-add .btn{flex:none;width:auto;white-space:nowrap;}
 
 .btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;background:#6E2A47;color:#fff;border:none;border-radius:12px;padding:11px 16px;font-family:var(--sans);font-size:14px;font-weight:800;cursor:pointer;transition:filter .15s,transform .05s;width:100%;}
 .btn:hover{filter:brightness(1.05);} .btn:active{transform:translateY(1px);}
