@@ -130,6 +130,7 @@ The user wants recovery and sleep suggestions. Focus on her readiness, sleep, ac
 .field{display:block;margin-bottom:10px;} .field span{display:block;font-size:12px;font-weight:700;color:#9B7080;margin-bottom:4px;}
 .field.tight{margin-bottom:8px;}
 .in{width:100%;border:1px solid #EFDADB;background:#FDF6F6;border-radius:11px;padding:10px 12px;font-family:var(--sans);font-size:15px;color:var(--ink);outline:none;}
+.in[type="date"],.in[type="time"]{-webkit-appearance:none;appearance:none;max-width:100%;min-width:0;}
 .in:focus{border-color:#6E2A47;box-shadow:0 0 0 3px var(--leaf-soft);}
 .in.slim{width:auto;padding:6px 10px;font-size:13px;font-weight:700;}
 .in.area{min-height:84px;resize:vertical;font-size:13px;line-height:1.5;margin-bottom:8px;font-family:ui-monospace,monospace;}
