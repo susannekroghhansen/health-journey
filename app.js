@@ -96,8 +96,8 @@ The user wants recovery and sleep suggestions. Focus on her readiness, sleep, ac
   --serif:'Fraunces',Georgia,serif; --sans:'Nunito Sans',system-ui,sans-serif;
 }
 *{box-sizing:border-box;}
-.app{background:var(--bg);min-height:100vh;display:flex;justify-content:center;font-family:var(--sans);color:var(--ink);}
-.frame{width:100%;max-width:520px;height:100vh;background-color:var(--bg);background-image:radial-gradient(#EFD7D9 1px,transparent 1px);background-size:22px 22px;display:flex;flex-direction:column;position:relative;}
+.app{background:var(--bg);min-height:100vh;min-height:100dvh;display:flex;justify-content:center;font-family:var(--sans);color:var(--ink);}
+.frame{width:100%;max-width:520px;height:100vh;height:100dvh;background-color:var(--bg);background-image:radial-gradient(#EFD7D9 1px,transparent 1px);background-size:22px 22px;display:flex;flex-direction:column;position:relative;}
 .center{flex:1;display:flex;align-items:center;justify-content:center;}
 .spin{animation:spin 1s linear infinite;} @keyframes spin{to{transform:rotate(360deg);}}
 

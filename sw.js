@@ -1,4 +1,4 @@
-const CACHE = "healthjourney-v1";
+const CACHE = "healthjourney-v2";
 const ASSETS = ["./", "./index.html", "./app.js", "./manifest.json",
   "./icons/icon-192.png", "./icons/icon-512.png"];
 
